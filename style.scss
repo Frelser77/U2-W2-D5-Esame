@@ -1,5 +1,9 @@
 @import "_bs_overrided";
 
+:root {
+	--bs-dropdown-link-hover-bg: transparent;
+}
+
 img,
 svg {
 	cursor: pointer;
@@ -7,4 +11,9 @@ svg {
 
 .no-style {
 	text-decoration: none;
+}
+
+.movies img:hover {
+	transform: scale(1.1);
+	transition: 100ms;
 }
